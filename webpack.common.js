@@ -46,7 +46,7 @@ module.exports = {
       ],
     }),
     new InjectManifest({
-      swSrc: path.resolve(__dirname, 'src/scripts/sw.js'),
+      swSrc: path.resolve(__dirname, 'src/scripts/utils/sw.js'),
     }),
     new ImageminWebpackPlugin({
       plugins: [
